@@ -1,0 +1,111 @@
+/* css comuni */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.relative {
+    position: relative;
+}
+
+.green {
+    background-color: #7CBB02;
+}
+.white {
+    color: white;
+}
+
+.float-left {
+    float: left; 
+}
+.float-right {
+    float: right; 
+}
+.clearfix::after {
+    content: "";
+    display: table; 
+    clear: both;
+}
+
+
+/* css header  */
+header {
+    width: 100%; 
+    height: 550px;
+    background-color: #0C325A;
+    background-image: url(../img/background-header.png);
+    background-size: 62%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 112%;
+    background-position-y: 106%;
+}
+
+.container {
+    width: 80%;
+    height; 100%;
+    margin: 0 auto;
+}
+.header-top {
+    height: 80px;
+    line-height: 80px;
+}
+
+.header-logo {
+    width: 15%;
+    height: 100%;
+}
+.header-logo img{
+    width: 70%;
+    vertical-align: middle;
+}
+
+header nav {
+    width: 45%;
+    height: 100%;
+    vertical-align: middle;
+}
+.list-inline {
+    display inline-block;
+    width: 100%;
+    list-style: none;
+}
+header ul> li {
+    display: inline-block;
+    padding: 0 5px;
+}
+a {
+    text-decoration: none;  
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;   
+}
+
+.header-button {
+    width: 40%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: right; 
+}
+
+.button {
+    border: 1px solid #7CBB02;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.jumbotron {
+    width: 50%;
+    background-color: red;
+}
+
+.jumbotron h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
