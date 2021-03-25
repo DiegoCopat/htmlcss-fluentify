@@ -49,19 +49,19 @@ body {
 /* css header  */
 header {
     width: 100%; 
-    height: 500px;
+    height: 550px;
     background-color: #0C325A;
     background-image: url(../img/background-header.png);
-    background-size: 62%;
+    background-size: 72%;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-position-x: 112%;
-    background-position-y: 106%;
+    background-position-x: 120%;
+    background-position-y: 110%;
 }
 
 .container {
     width: 80%;
-    height; 100%;
+    height: 100%;
     margin: 0 auto;
 }
 .header-top {
@@ -84,7 +84,7 @@ header nav {
     vertical-align: middle;
 }
 .list-inline {
-    display inline-block;
+    display: inline-block;
     width: 100%;
     list-style: none;
 }
@@ -166,15 +166,16 @@ a {
     margin-top: 10px;
     display: inline-block;
     width: calc(100% / 3);
-    height: 500px;
+    height: 430px;
     /* background-color: red; */
     padding: 0 25px;
     /* border: 1px solid black; */
 }
 .main-content {
-    height: 53%;
+    height: 260px;
 }
 .main-content-top p{
+    height: 47%;
     margin-top: 20px;
 }
 
